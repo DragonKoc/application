@@ -29,7 +29,7 @@ jobs:
           workflow: terraform.yml
           workflow_conclusion: success
           name: terraform
-          repo: itea-test/itea-test
+          repo: DragonKoc/iac
 
       - id: host
         env:
